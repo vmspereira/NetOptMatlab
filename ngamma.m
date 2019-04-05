@@ -4,6 +4,6 @@ if p==0 || h==0
 elseif p>0
     g=exp(-h/p);
 else
-    g = 1 - p /(h*h);
+    g = 1 - p^3/h;
 end
 
